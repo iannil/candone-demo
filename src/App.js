@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Layout, Menu, Breadcrumb, Col, Row, Card, Badge } from 'antd';
+import { Alert, Button, Layout, Menu, Breadcrumb, Col, Row, Card, Badge } from 'antd';
 import GuaCard from './GuaCard';
 import _ from 'lodash';
 
@@ -33,14 +33,14 @@ class App extends Component {
         '8': [0, 0, 0],
       },
       num2gua: {
-        '111': './imgs/乾.jpg',
-        '011': './imgs/兑.jpg',
-        '101': './imgs/离.jpg',
-        '001': './imgs/震.jpg',
-        '110': './imgs/巽.jpg',
-        '010': './imgs/坎.jpg',
-        '100': './imgs/艮.jpg',
-        '000': './imgs/坤.jpg',
+        '111': '/imgs/乾.jpg',
+        '011': '/imgs/兑.jpg',
+        '101': '/imgs/离.jpg',
+        '001': '/imgs/震.jpg',
+        '110': '/imgs/巽.jpg',
+        '010': '/imgs/坎.jpg',
+        '100': '/imgs/艮.jpg',
+        '000': '/imgs/坤.jpg',
       },
       num2type: {
         '111': '金',
@@ -74,30 +74,30 @@ class App extends Component {
     const b = arr[1];
 
     if(a === b){
-      return (<Badge count={'这事能成'} />);
+      return (<Badge count={'能成'} />);
     }
 
     if(a === '金' && (b === '水' || b === '火')) {
-      return (<Badge count={'这事没戏'} style={{ backgroundColor: '#52c41a' }} />);
+      return (<Badge count={'没戏'} style={{ backgroundColor: '#52c41a' }} />);
     }
     
     if(a === '木' && (b === '火' || b === '金')) {
-      return (<Badge count={'这事没戏'} style={{ backgroundColor: '#52c41a' }} />);
+      return (<Badge count={'没戏'} style={{ backgroundColor: '#52c41a' }} />);
     }
     
     if(a === '水' && (b === '木' || b === '土')) {
-      return (<Badge count={'这事没戏'} style={{ backgroundColor: '#52c41a' }} />);
+      return (<Badge count={'没戏'} style={{ backgroundColor: '#52c41a' }} />);
     }
     
     if(a === '火' && (b === '土' || b === '水')) {
-      return (<Badge count={'这事没戏'} style={{ backgroundColor: '#52c41a' }} />);
+      return (<Badge count={'没戏'} style={{ backgroundColor: '#52c41a' }} />);
     }
 
     if(a === '土' && (b === '金' || b === '木')) {
-      return (<Badge count={'这事没戏'} style={{ backgroundColor: '#52c41a' }} />);
+      return (<Badge count={'没戏'} style={{ backgroundColor: '#52c41a' }} />);
     }
 
-    return (<Badge count={'这事能成'} />);
+    return (<Badge count={'能成'} />);
   };
 
   checkDone() {
@@ -184,6 +184,7 @@ class App extends Component {
             <Breadcrumb.Item>开始测算</Breadcrumb.Item>
           </Breadcrumb>
           <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
+            <Alert style={{marginBottom: '15px'}} message="这事儿能成吗 · Demo实验版。心里默想提问的问题，然后点开始即可。" type="success" />
             <Row gutter={16}>
               <Col span={2}>
                 <GuaCard title="本卦" content={this.state.ben}/>
