@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/candone-demo/precache-manifest.ee0683c352245fc3587075570cb47fd3.js"
+  "/candone-demo/precache-manifest.b5247cf348819b4d2e1551bf6edc894e.js"
 );
 
 workbox.clientsClaim();
