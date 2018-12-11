@@ -1,2 +1,0 @@
-# candone-demo
-candone demo
