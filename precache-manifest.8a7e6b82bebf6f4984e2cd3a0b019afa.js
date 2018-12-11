@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/candone-demo/static/js/runtime~main.edf310d4.js"
   },
   {
-    "revision": "ea03edc0356edfc3a8ad",
-    "url": "/candone-demo/static/js/main.ea03edc0.chunk.js"
+    "revision": "ed553a91b61b06781e50",
+    "url": "/candone-demo/static/js/main.ed553a91.chunk.js"
   },
   {
-    "revision": "32b63690d593cd23ded9",
-    "url": "/candone-demo/static/js/1.32b63690.chunk.js"
+    "revision": "ac12eb425c3cc00994b7",
+    "url": "/candone-demo/static/js/1.ac12eb42.chunk.js"
   },
   {
-    "revision": "ea03edc0356edfc3a8ad",
+    "revision": "ed553a91b61b06781e50",
     "url": "/candone-demo/static/css/main.c15869b2.chunk.css"
   },
   {
-    "revision": "32b63690d593cd23ded9",
+    "revision": "ac12eb425c3cc00994b7",
     "url": "/candone-demo/static/css/1.656f3d02.chunk.css"
   },
   {
-    "revision": "5098109f68039ddeef34a200179d4cbd",
+    "revision": "e1d21ed40844b5ebe23b5a4169485e2d",
     "url": "/candone-demo/index.html"
   }
 ];
