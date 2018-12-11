@@ -186,19 +186,19 @@ class App extends Component {
           <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
             <Alert style={{marginBottom: '15px'}} message="这事儿能成吗 · Demo实验版。心里默想提问的问题，然后点开始即可。" type="success" />
             <Row gutter={16}>
-              <Col span={2}>
+              <Col span={4}>
                 <GuaCard title="本卦" content={this.state.ben}/>
               </Col>
-              <Col span={2}>
+              <Col span={4}>
                 <GuaCard title="互卦" content={this.state.hu}/>
               </Col>
-              <Col span={2}>
+              <Col span={4}>
                 <GuaCard title="错卦" content={this.state.cuo}/>
               </Col>
-              <Col span={2}>
+              <Col span={4}>
                 <GuaCard title="综卦" content={this.state.zong}/>
               </Col>
-              <Col span={2}>
+              <Col span={4}>
                 <GuaCard title="变卦" content={this.state.bian}/>
               </Col>
               <Col span={4}>
@@ -213,7 +213,7 @@ class App extends Component {
               </Col>
             </Row>
             <Row gutter={16} style={{marginTop: "20px"}}>
-              <Col span={2}>
+              <Col span={4}>
                 <Button type="primary" icon="check-circle" size="large" onClick={this.checkDone.bind(this)}>开始</Button>
               </Col>
             </Row>

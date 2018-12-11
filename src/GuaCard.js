@@ -6,10 +6,12 @@ class GuaCard extends Component {
     const hasContent = this.props.content;
     return (
       <Card title={this.props.title}>
+        <div style={{display: 'flex', justifyContent: 'center'}}>
         {hasContent ? (<div style={{flexDirection: 'column', display: 'inline-flex'}}>
           <img alt="up" src={process.env.PUBLIC_URL + this.props.content[0]}/>
           <img alt="down" src={process.env.PUBLIC_URL + this.props.content[1]} style={{marginTop: '10px'}}/>
         </div>) : (<p>无</p>)}
+        </div>
       </Card>
     );
   };
