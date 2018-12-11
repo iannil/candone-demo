@@ -1,15 +1,15 @@
 {
   "main.css": "/candone-demo/static/css/main.c15869b2.chunk.css",
-  "main.js": "/candone-demo/static/js/main.ed553a91.chunk.js",
-  "main.js.map": "/candone-demo/static/js/main.ed553a91.chunk.js.map",
+  "main.js": "/candone-demo/static/js/main.7aad7653.chunk.js",
+  "main.js.map": "/candone-demo/static/js/main.7aad7653.chunk.js.map",
   "static/css/1.656f3d02.chunk.css": "/candone-demo/static/css/1.656f3d02.chunk.css",
   "static/js/1.ac12eb42.chunk.js": "/candone-demo/static/js/1.ac12eb42.chunk.js",
   "static/js/1.ac12eb42.chunk.js.map": "/candone-demo/static/js/1.ac12eb42.chunk.js.map",
   "runtime~main.js": "/candone-demo/static/js/runtime~main.edf310d4.js",
   "runtime~main.js.map": "/candone-demo/static/js/runtime~main.edf310d4.js.map",
-  "static/css/main.c15869b2.chunk.css.map": "/candone-demo/static/css/main.c15869b2.chunk.css.map",
   "static/css/1.656f3d02.chunk.css.map": "/candone-demo/static/css/1.656f3d02.chunk.css.map",
+  "static/css/main.c15869b2.chunk.css.map": "/candone-demo/static/css/main.c15869b2.chunk.css.map",
   "index.html": "/candone-demo/index.html",
-  "precache-manifest.8a7e6b82bebf6f4984e2cd3a0b019afa.js": "/candone-demo/precache-manifest.8a7e6b82bebf6f4984e2cd3a0b019afa.js",
+  "precache-manifest.b659fc1adcc4ae0367b913e2d7a00fd2.js": "/candone-demo/precache-manifest.b659fc1adcc4ae0367b913e2d7a00fd2.js",
   "service-worker.js": "/candone-demo/service-worker.js"
 }
